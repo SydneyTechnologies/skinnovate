@@ -1,13 +1,28 @@
 # Project Setup and Execution Guide
 
-This guide provides step-by-step instructions to set up and run the project on your system.
+This guide provides step-by-step instructions to clone, set up, and run the project on your system.
 
 ## Prerequisites
 
 Ensure you have the following installed:
 
+- Git (for cloning the repository)
 - Python (latest stable version recommended)
 - Pipenv (Python dependency manager)
+
+## Cloning the Repository
+
+To get started, clone the project repository from GitHub:
+
+```sh
+git clone https://github.com/SydneyTechnologies/skinnovate.git
+```
+
+Then, navigate into the project directory:
+
+```sh
+cd skinnovate
+```
 
 ## Installation
 
@@ -50,6 +65,8 @@ The project requires certain environment variables to be configured. Copy the sa
 ```sh
 cp sample.env .env
 ```
+
+If the command above doesn't work you can just rename the file manually and continue
 
 Then, open the `.env` file and replace the placeholder values with the appropriate secrets.
 
