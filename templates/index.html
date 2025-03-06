@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skinovate</title>
+  <link rel="stylesheet" href="../static/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Skinovate</h1>
+      <p>Science-backed, skin-approved!</p>
+    </header>
+
+    <!-- Skincare Recommendation Form -->
+    <form id="recommendationForm">
+      <input type="text" id="skinQuery" placeholder="Enter your skin concerns (e.g., 'oily skin with acne')" required>
+      <button type="submit">Get Recommendations</button>
+    </form>
+    <button id="clearButton" onclick="clearRecommendations()">Clear Recommendations</button>
+    <div class="results" id="results"></div>
+
+    <!-- AI Chat Assistant -->
+    <div class="chat-container">
+      <h3>AI Skincare Assistant</h3>
+
+      <div class="input-group">
+        <input type="text" id="questionInput" placeholder="Ask about skincare ingredients for your skintype...">
+        <input type="file" id="imageInput">
+        <button onclick="processChat()">Send</button>
+      </div>
+
+      <div id="chatResponse" class="chat-bubble"></div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Skincare Recommender</p>
+    </footer>
+  </div>
+
+  <script src="../static/index.js"></script>
+</body>
+
+</html>

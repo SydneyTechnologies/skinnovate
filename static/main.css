@@ -1,0 +1,122 @@
+/* Base styling with a sleek, modern look */
+body {
+  background: #deb7f0;
+  font-family: "Montserrat", sans-serif;
+  color: #657b83;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #990073;
+  font-size: 2.5rem;
+}
+
+/* Fix input field width */
+input[type="text"] {
+  width: 90%;
+  max-width: 500px;
+  padding: 0.8rem;
+  border: 2px solid #93a1a1;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Make button align properly */
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #2aa198;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 10px auto;
+}
+
+#clearButton {
+  background-color: #cb4b16;
+}
+
+button:hover {
+  background-color: #268986;
+}
+
+/* Product Recommendation Box */
+.product {
+  background-color: #f9f9f9;
+  padding: 1.2rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  border-left: 5px solid #990073;
+}
+
+.product h2 {
+  color: #990073;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.product strong {
+  color: #333;
+}
+
+/* Chat container adjustments */
+.chat-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f8e8f5;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.input-group input {
+  width: 90%;
+  max-width: 500px;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Chat bubble for responses */
+.chat-bubble {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
